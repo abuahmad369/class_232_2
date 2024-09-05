@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication Table"
+        android:background="#00BCD4"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input number of term: "
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result here"
+        android:textSize="35sp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
